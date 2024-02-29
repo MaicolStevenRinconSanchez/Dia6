@@ -1,0 +1,217 @@
+@font-face {
+    font-family: "Open1";
+    src: url(static/OpenSans-Regular.ttf);
+}
+@font-face {
+    font-family: "Open2";
+    src: url(static/OpenSans-SemiBold.ttf);
+}
+@font-face {
+    font-family: "Open3";
+    src: url(static/OpenSans_Condensed-Medium.ttf);
+}
+
+body{   
+       
+        position: relative;
+        width: 1920px;
+        height: 1080px;
+        margin: 0;
+        overflow: hidden;
+        padding: 0;
+    
+}
+
+.submetrolinea1{
+    width: 20%;
+    position: absolute;
+    left:5%;
+    transform: translateY(60%);
+}
+.Saldo a {
+    color: black; /* Cambia el color del enlace a negro */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+.Saldo {
+    font-family: "Open2";
+    position: absolute;    
+    font-size: 40px;
+    left: 62%;  
+    transform: translateY(115%); 
+    }
+.Saldo::after {
+        content: '';
+        position: absolute;
+        width: 100%;
+        height: 2px;
+        background-color: black;
+        bottom: -6px;
+        left: 0;
+        transition: all 0.5s ease;
+        transform: scaleX(0.5);
+}
+.Saldo:hover::after{  
+    transform: scaleX(0.8);
+}
+.Tarjeta a {
+    color: black; /* Cambia el color del enlace a negro */
+    text-decoration: none; /* Elimina el subrayado del enlace */
+}
+.Tarjeta { 
+    font-family: "Open2";
+    position:absolute;    
+    font-size: 35px;
+    left: 42%;  
+    transform: translateY(146%);
+    }/* Ajuste para centrado vertical */
+
+.carrito {   
+    position: absolute;    
+    left: 87%;  
+    width: 3%;
+    transform: translateY(105%);
+}
+
+.buscador{
+    position:absolute;    
+    width: 2.4%;
+    left: 77%;  
+    transform: translateY(139%);
+}
+
+.container1{    
+    background-color: black;
+    position: absolute;
+    left: 94%;
+    top :0;
+    width: 20%;
+    height: 1080px;
+}
+
+.Principal{ 
+    position: absolute;
+    width: 45%;
+    left: 24%;
+    transform: translateY(28%);
+}
+.TM{  
+    position: absolute;
+    font-family: "Open2";
+    font-size: 40px;
+    left: 26%;
+    transform: translateY(390%);
+}
+.COP{   
+    position: absolute;
+    font-family: "Open2";
+    font-size: 40px;
+    left:33%;
+    transform:  translateY(450%) ;
+}
+.Scoger{
+    position: absolute;
+    font-family: "Open2";
+    font-size: 40px;
+    left:38%;
+    transform:  translateY(510%)
+}
+
+
+.input-container {
+    position: relative;
+    width: 15%;
+    height: 65px;
+    border: 2px solid grey;
+    border-radius: 20px;
+    overflow: hidden;
+    left: 38%;
+    transform: translateY(1190%);
+}
+
+
+.number {
+    position: absolute;
+    left: 34%;
+    font-size: 30px;
+    color: grey;
+    margin: 0;
+    padding: 5px;
+    line-height: 20px;
+    transform: translateY(45%);
+}
+
+
+.input-container:focus-within .number {
+    opacity: 0;
+    transform: translateY(200%);
+}
+
+.input-field {
+    width: calc(100% - 10px);
+    height: calc(100% - 10px);
+    padding: 5px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: transparent;
+}
+.compras{   
+    font-family: "Open2";
+    position: absolute;
+    left:77% ;
+    font-size: 30px;
+    transform: translateY(780%);
+}
+
+.logo{  
+    width: 10%;
+    position: absolute;
+    left: 75.5%;
+    transform: translateY(1790%);
+}
+.up{
+    width:2% ;
+    position: absolute;
+    left:96.5%;
+    transform: translateY(290%);
+}
+.down{
+    width: 2%;
+    position: absolute;
+    left: 96.5%;
+    transform: translateY(4230%);
+}
+
+.cantidad{
+    font-family: "Open1";
+    font-size: 33px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 95.1%;
+    transform: translateY(179%);
+}
+
+.four{
+    font-size: 30px;
+    color: grey;
+    position: absolute;
+    left: 95.5%;
+    transform: translateY(400%);
+}
+.five{  
+    font-size: 30px;
+    color: #FFFFFF;
+    position: absolute;
+    left: 95.5%;
+    transform: translateY(550%);
+}
+.six{
+    font-size: 30px;
+    color: grey;
+    position: absolute;
+    left: 95.5%;
+    transform: translateY(700%);
+}
