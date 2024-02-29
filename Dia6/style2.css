@@ -108,6 +108,14 @@ body{
     left:33%;
     transform:  translateY(450%) ;
 }
+.green{ 
+    position: absolute;
+    width: 11%;
+    height: 14%;
+    background-color:#D5FF43 ;
+    left: 75%;
+    transform: translateY(535%);
+}
 .Scoger{
     position: absolute;
     font-family: "Open2";
